@@ -1,0 +1,19 @@
+.navbar-color {
+  background-color: #292662;
+}
+.nav-link {
+  font-weight: 550;
+  padding: 0 15px !important;
+  font-family: sans-serif;
+}
+.nav-link:hover {
+  color: white !important;
+}
+.icon {
+  font-size: 17px;
+  cursor: pointer;
+}
+.image-logo {
+  width: 90px;
+  cursor: pointer;
+}

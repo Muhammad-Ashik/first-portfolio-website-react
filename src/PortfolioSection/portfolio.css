@@ -1,0 +1,22 @@
+.portfolio {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-attachment: fixed;
+  background-image: url("https://image.freepik.com/free-vector/white-gray-marble-realistic-texture-background_107791-515.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img {
+  transition: 0.4s;
+  padding-bottom: 30px;
+}
+.img:hover {
+  transform: scale(1.1);
+}
+.image {
+  cursor: pointer;
+  box-shadow: 16px 40px rgb(0 0 0 / 0%), 0 10px 18px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}

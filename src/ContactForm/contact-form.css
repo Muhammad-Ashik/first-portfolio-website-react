@@ -1,0 +1,84 @@
+.contact {
+  height: 100vh;
+}
+.contact-form {
+  height: -webkit-fill-available;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../images/website.png");
+  background-color: white;
+
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+p {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+input[type="text"],
+select,
+textarea {
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+}
+input[type="email"],
+select,
+textarea {
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+}
+
+input[type="submit"] {
+  outline: none;
+  margin-top: 30px;
+  background-color: white;
+  color: #212121;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+label {
+  font-size: 14px;
+  margin-bottom: 0 !important;
+}
+.submit-button {
+  text-align: center;
+}
+
+.form-container {
+  padding: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+  max-width: 500px !important;
+  border-radius: 5px;
+  background-color: transparent;
+}
